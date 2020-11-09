@@ -1,0 +1,87 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include includes/head.pug
+
+
+    body#page-home.theme-dark.page-header-textura
+
+        header#CursoPresentacion.curso-presentacion.page-header
+            .page-textura
+                .container
+
+                    include includes/page-home_topbar.pug
+
+                    +pageHeader("Tema", "assets/images/header/header_media.svg", "")   
+
+        section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
+
+            .container
+
+                include includes/page-home_resultados.pug  
+
+        section#IndiceTematico.curso-indice-tematico.section
+
+            .container
+
+                h2 Desarrollo de <br>contenidos
+                .brand-line-primary
+
+                .row.justify-content-center
+                    .col-12.col-sm-10
+                        .card.wow.flipInX(data-wow-delay=".4s")
+                            
+                            .card-body
+
+                                ul.list-group.list-group-flush.list.my-n3.nav-temas
+                                    +navTemaItem('1', 'Marco normativo del sistema de seguridad social en salud: (SGSSS): Sistema de Afiliación Transaccional (SAT).', '#tema-1')
+                                    +navTemaItem('2', 'Entes del sistema de salud.', '#tema-2') 
+                                    +navTemaItem('3', 'Mecanismos y sistemas de financiación del sector salud.', '#tema-3')
+                                    +navTemaItem('4', 'Sistema general de participaciones.', '#tema-4')
+                                    +navTemaItem('5', 'Rentas cedidas, impuestos y regalías.', '#tema-5') 
+                                    +navTemaItem('6', 'Cuotas de recuperación poblaciones especiales, criterios de priorización y entes certificadores.', '#tema-6') 
+                                    +navTemaItem('7', 'Unidad de Pago por Captación – UPC.', '#tema-7') 
+                                    +navTemaItem('8', 'Tipos de aseguramiento: - régimen contributivo, - régimen subsidiado, - régimen especial - régimen de excepción.', '#tema-8') 
+                                    +navTemaItem('9', 'Afiliación al Régimen contributivo y al Régimen subsidiado Subsidiado.', '#tema-9') 
+                                    +navTemaItem('10', 'Tipos de usuarios: de Beneficiarios y Cotizantes.', '#tema-10') 
+                                    +navTemaItem('11', 'Afiliación de población especial al SGSSS: INPEC, ROM, Listados censales y otros (Ley 352 de 1997 régimen de excepción, Decreto 806 de 1998, Decreto 1047 de 2014).', '#tema-11') 
+                                    +navTemaItem('12', 'Multiafiliación.', '#tema-12') 
+                                    +navTemaItem('13', 'Carta de derechos de los usuarios. (Resoluciones 1817 de 2009).', '#tema-13') 
+                                    +navTemaItem('14', 'Instrumentos para garantizar la continuidad del aseguramiento ante los cambios en la condición económica de los afiliados.', '#tema-14') 
+                                    +navTemaItem('15', 'Sistema de identificación de potenciales beneficiarios: Encuesta SISBÉN.', '#tema-15') 
+                                    +navTemaItem('16', 'Prestaciones económicas y cotizaciones al SGSSS.', '#tema-16')   
+                                    +navTemaItem('glosary', 'Glosario', '#glosario')
+                                    +navTemaItem('folder', 'Material complementario', '#anexos')
+                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
+
+
+        section#mainContent         
+            #tema-1
+                include pages/1-tema.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug                           
+            #glosario
+                include pages/glosario.pug
+            #anexos
+                include pages/material-complementario.pug
+            #referencias
+                include pages/referencias.pug
+
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+
+        a.scroll-to-top-btn
+            .fa.fa-angle-up.fa-2x
+
+        script(src="assets/js/vendor.js")
+        script(src="js/local.js")
+
+
+
+
+

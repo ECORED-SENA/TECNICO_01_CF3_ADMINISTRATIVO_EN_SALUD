@@ -1,0 +1,219 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+    "title": "1. Marco normativo del sistema de seguridad social en salud: (SGSSS): Sistema de Afiliación Transaccional (SAT).",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.1 Seguridad social",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.2 Sistema de afiliación transaccional",
+        "anchor": "12"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.3 Acceso al SAT",
+        "anchor": "13"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.4 Trámites y novedades disponibles en el SAT",
+        "anchor": "14"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.5 Consultas disponibles en el SAT",
+        "anchor": "15"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.6 Beneficios",
+        "anchor": "16"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.7 La afiliación",
+        "anchor": "17"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.8 Portabilidad",
+        "anchor": "18"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "Marco_normativo_del_sistema_de_seguridad_social_en_salud",
+        "title": "1.9 Movilidad entre regímenes",
+        "anchor": "19"
+      }
+    ]
+
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "cadena_de_custodia",
+    "title": "2. Entes del sistema de salud.",
+    "breadcrumb": ["Inicio","tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "cadena_de_custodia",
+        "title": "2.1 Fase toma de muestras",
+        "anchor": "21"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "cadena_de_custodia",
+        "title": "2.2 Fase de almacenamiento y transporte de muestras de agua",
+        "anchor": "22"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "cadena_de_custodia",
+        "title": "2.3 Fase de entrega de muestras al laboratorio",
+        "anchor": "23"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "cadena_de_custodia",
+        "title": "2.4 Guías técnicas para control de calidad en el muestreo de aguas",
+        "anchor": "24"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "protocolos_de_laboratorio",
+    "title": "3. Mecanismos y sistemas de financiación del sector salud.",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Sistema_general_de_participaciones",
+    "title": "4. Sistema general de participaciones.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/4-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Rentas_cedidas_impuestos_y_regalias",
+    "title": "5. Rentas cedidas, impuestos y regalías.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/5-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Cuotas_de_recuperacion_poblaciones_especiales_criterios_de_priorizacion_y_entes_certificadores",
+    "title": "6. Cuotas de recuperación poblaciones especiales, criterios de priorización y entes certificadores.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/6-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Unidad_de_Pago_por_Captacion_UPC",
+    "title": "7. Unidad de Pago por Captación – UPC.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/7-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Tipos_de_aseguramiento_regimen_contributivo_regimen_subsidiado_regimen_especial_egimen_de_excepcion",
+    "title": "8. Tipos de aseguramiento: - régimen contributivo, - régimen subsidiado, - régimen especial - régimen de excepción.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/8-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Afiliacion_al_Regimen_contributivo_y_al_Regimen_subsidiado_Subsidiado",
+    "title": "9. Afiliación al Régimen contributivo y al Régimen subsidiado Subsidiado.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/9-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Tipos_de_usuarios_de_Beneficiarios_y_Cotizantes.",
+    "title": "10. Tipos de usuarios: de Beneficiarios y Cotizantes.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/10-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Afiliacion_de_poblacion_especial_al_SGSSS",
+    "title": "11. Afiliación de población especial al SGSSS: INPEC, ROM, Listados censales y otros (Ley 352 de 1997 régimen de excepción, Decreto 806 de 1998, Decreto 1047 de 2014).",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/11-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Multiafiliacion",
+    "title": "12. Multiafiliación.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/12-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Carta_de_derechos_de_los_usuarios",
+    "title": "13. Carta de derechos de los usuarios. (Resoluciones 1817 de 2009).",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/13-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Instrumentos_para_garantizar_la_continuidad_del_aseguramiento_ante_los_cambios_en_la_condicion_economica_de_los_afiliados",
+    "title": "14. Instrumentos para garantizar la continuidad del aseguramiento ante los cambios en la condición económica de los afiliados.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/14-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Sistema_de_identificacion_de_potenciales_beneficiarios_Encuesta_SISBEN",
+    "title": "15. Sistema de identificación de potenciales beneficiarios: Encuesta SISBÉN.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/15-tema.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "Prestaciones_economicas_y_cotizaciones_al_SGSSS",
+    "title": "16. Prestaciones económicas y cotizaciones al SGSSS.",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/16-tema.html"
+  }
+]
